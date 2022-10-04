@@ -1,0 +1,17 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+FILE*p;
+p=fopen("AAA.txt","w");
+if (p==NULL)
+   {printf("file not found");
+   }
+else
+   //printf("file founded");
+   fprintf(p,"hiii i am begniner ");
+   fprintf(p,"123 \n 456");
+
+   fclose(p);
+getch();
+}
