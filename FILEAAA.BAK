@@ -8,10 +8,13 @@ if (p==NULL)
    {printf("file not found");
    }
 else
-   //printf("file founded");
-   fprintf(p,"hiii i am begniner ");
-   fprintf(p,"123 \n 456");
-
+   {printf("file founded");
+   
+   while (i<=3000)
+   {fprintf(p,"\n hello world");
+   i++;
+   }
+    }
    fclose(p);
 getch();
 }
